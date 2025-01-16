@@ -77,6 +77,38 @@
 		56D17B702C02209500003C9F /* SavannaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 56D17B6F2C02209500003C9F /* SavannaKit */; };
 		56D17B732C0220A700003C9F /* Fuse in Frameworks */ = {isa = PBXBuildFile; productRef = 56D17B722C0220A700003C9F /* Fuse */; };
 		56D17B7A2C022DAB00003C9F /* SavannaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 56D17B792C022DAB00003C9F /* SavannaKit */; };
+		56F2AFC62D38BF22007EB743 /* PopoverContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C873BE02697C2A800D9A3F0 /* PopoverContainerView.swift */; };
+		56F2AFC72D38BF22007EB743 /* ScriptsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC211C4236FB5C1007CECEE /* ScriptsSettingsViewController.swift */; };
+		56F2AFC82D38BF22007EB743 /* ScriptExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53B6DF226D404E00DC6861 /* ScriptExecution.swift */; };
+		56F2AFC92D38BF22007EB743 /* Script+Require.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BC0DC24AAC518009B8631 /* Script+Require.swift */; };
+		56F2AFCA2D38BF22007EB743 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9118B523406B530018916F /* Colors.swift */; };
+		56F2AFCB2D38BF22007EB743 /* UpdateBuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A4A12482FE9E006496BA /* UpdateBuddy.swift */; };
+		56F2AFCC2D38BF22007EB743 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2066A121FE47090082570E /* PopoverViewController.swift */; };
+		56F2AFCD2D38BF22007EB743 /* Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9761DE2214E46800AFF8CD /* Script.swift */; };
+		56F2AFCE2D38BF22007EB743 /* AppVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A4A3248300CE006496BA /* AppVersion.swift */; };
+		56F2AFCF2D38BF22007EB743 /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20668F21FD64A20082570E /* DefaultTheme.swift */; };
+		56F2AFD02D38BF22007EB743 /* ScriptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9761DB2214E45300AFF8CD /* ScriptManager.swift */; };
+		56F2AFD12D38BF22007EB743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20667521FD628E0082570E /* AppDelegate.swift */; };
+		56F2AFD22D38BF22007EB743 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20669D21FE445E0082570E /* OverlayView.swift */; };
+		56F2AFD32D38BF22007EB743 /* ScriptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9761E02214E68D00AFF8CD /* ScriptTableViewCell.swift */; };
+		56F2AFD42D38BF22007EB743 /* ScriptTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA245DB224822EA00586DFD /* ScriptTableView.swift */; };
+		56F2AFD52D38BF22007EB743 /* BoopLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20669321FD6F400082570E /* BoopLexer.swift */; };
+		56F2AFD62D38BF22007EB743 /* BoopToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20669B21FE3E060082570E /* BoopToken.swift */; };
+		56F2AFD72D38BF22007EB743 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2066A521FE53870082570E /* SearchField.swift */; };
+		56F2AFD82D38BF22007EB743 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2066A321FE47CE0082570E /* PopoverView.swift */; };
+		56F2AFD92D38BF22007EB743 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20668921FD63C90082570E /* MainViewController.swift */; };
+		56F2AFDA2D38BF22007EB743 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20669921FD76900082570E /* StatusView.swift */; };
+		56F2AFDB2D38BF22007EB743 /* UpdateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A4E524870678006496BA /* UpdateTextField.swift */; };
+		56F2AFDC2D38BF22007EB743 /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC211C2236E3141007CECEE /* PreferencesTabViewController.swift */; };
+		56F2AFDD2D38BF22007EB743 /* ThemeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC93F9249C2D600080B9B8 /* ThemeSettingsViewController.swift */; };
+		56F2AFDE2D38BF22007EB743 /* ScriptsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9761D82214E3B500AFF8CD /* ScriptsTableViewController.swift */; };
+		56F2AFE02D38BF22007EB743 /* SavannaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 56F2AFC22D38BF22007EB743 /* SavannaKit */; };
+		56F2AFE12D38BF22007EB743 /* Fuse in Frameworks */ = {isa = PBXBuildFile; productRef = 56F2AFC32D38BF22007EB743 /* Fuse */; };
+		56F2AFE22D38BF22007EB743 /* SavannaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 56F2AFC42D38BF22007EB743 /* SavannaKit */; };
+		56F2AFE42D38BF22007EB743 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 2C9761D42214E11600AFF8CD /* scripts */; };
+		56F2AFE52D38BF22007EB743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C20667721FD62910082570E /* Assets.xcassets */; };
+		56F2AFE62D38BF22007EB743 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C20667921FD62910082570E /* MainMenu.xib */; };
+		56F2AFE72D38BF22007EB743 /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5ED41D2357F67200322893 /* Preferences.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +133,16 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2C60A55924871273006496BA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2AFE82D38BF22007EB743 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -140,7 +182,7 @@
 		2C60A4A12482FE9E006496BA /* UpdateBuddy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBuddy.swift; sourceTree = "<group>"; };
 		2C60A4A3248300CE006496BA /* AppVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersion.swift; sourceTree = "<group>"; };
 		2C60A4E524870678006496BA /* UpdateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTextField.swift; sourceTree = "<group>"; };
-		2C60A56024871273006496BA /* GTDDevTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTDDevTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C60A56024871273006496BA /* VNLookDevTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNLookDevTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C873BE02697C2A800D9A3F0 /* PopoverContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverContainerView.swift; sourceTree = "<group>"; };
 		2C9118B523406B530018916F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		2C9761D42214E11600AFF8CD /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
@@ -153,6 +195,8 @@
 		2CC211C2236E3141007CECEE /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
 		2CC211C4236FB5C1007CECEE /* ScriptsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsSettingsViewController.swift; sourceTree = "<group>"; };
 		2CEC93F9249C2D600080B9B8 /* ThemeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsViewController.swift; sourceTree = "<group>"; };
+		56F2AFEC2D38BF22007EB743 /* VNLookDevTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VNLookDevTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F2AFED2D38BF23007EB743 /* VNLookDevTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VNLookDevTool-Info.plist"; path = "/Users/duynt/Gotadi/IOS/gtd-devtool/GTDDevTool/VNLookDevTool-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +224,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		56F2AFDF2D38BF22007EB743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F2AFE02D38BF22007EB743 /* SavannaKit in Frameworks */,
+				56F2AFE12D38BF22007EB743 /* Fuse in Frameworks */,
+				56F2AFE22D38BF22007EB743 /* SavannaKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -201,6 +255,7 @@
 				2C17C66824271DDA005C911C /* GTDDevToolTests */,
 				2C20667321FD628E0082570E /* Products */,
 				53D77B44249A4019002A2F02 /* Frameworks */,
+				56F2AFED2D38BF23007EB743 /* VNLookDevTool-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,7 +264,8 @@
 			children = (
 				2C20667221FD628E0082570E /* GTDDevTool.app */,
 				2C17C66724271DDA005C911C /* GTDDevToolTests.xctest */,
-				2C60A56024871273006496BA /* GTDDevTool.app */,
+				2C60A56024871273006496BA /* VNLookDevTool.app */,
+				56F2AFEC2D38BF22007EB743 /* VNLookDevTool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -394,7 +450,30 @@
 			packageProductDependencies = (
 			);
 			productName = Boop;
-			productReference = 2C60A56024871273006496BA /* GTDDevTool.app */;
+			productReference = 2C60A56024871273006496BA /* VNLookDevTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F2AFC12D38BF22007EB743 /* VNLookDevTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F2AFE92D38BF22007EB743 /* Build configuration list for PBXNativeTarget "VNLookDevTool" */;
+			buildPhases = (
+				56F2AFC52D38BF22007EB743 /* Sources */,
+				56F2AFDF2D38BF22007EB743 /* Frameworks */,
+				56F2AFE32D38BF22007EB743 /* Resources */,
+				56F2AFE82D38BF22007EB743 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VNLookDevTool;
+			packageProductDependencies = (
+				56F2AFC22D38BF22007EB743 /* SavannaKit */,
+				56F2AFC32D38BF22007EB743 /* Fuse */,
+				56F2AFC42D38BF22007EB743 /* SavannaKit */,
+			);
+			productName = Boop;
+			productReference = 56F2AFEC2D38BF22007EB743 /* VNLookDevTool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -434,6 +513,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				56F2AFC12D38BF22007EB743 /* VNLookDevTool */,
 				2C20667121FD628E0082570E /* GTDDevTool */,
 				2C17C66624271DDA005C911C /* GTDDevToolTests */,
 				2C60A53924871273006496BA /* GTDDevTool (App Store) */,
@@ -468,6 +548,17 @@
 				2C60A55624871273006496BA /* Assets.xcassets in Resources */,
 				2C60A55724871273006496BA /* MainMenu.xib in Resources */,
 				2C60A55824871273006496BA /* Preferences.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2AFE32D38BF22007EB743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F2AFE42D38BF22007EB743 /* scripts in Resources */,
+				56F2AFE52D38BF22007EB743 /* Assets.xcassets in Resources */,
+				56F2AFE62D38BF22007EB743 /* MainMenu.xib in Resources */,
+				56F2AFE72D38BF22007EB743 /* Preferences.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +642,38 @@
 				2C60A54E24871273006496BA /* UpdateTextField.swift in Sources */,
 				2C60A54F24871273006496BA /* PreferencesTabViewController.swift in Sources */,
 				2C60A55024871273006496BA /* ScriptsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F2AFC52D38BF22007EB743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F2AFC62D38BF22007EB743 /* PopoverContainerView.swift in Sources */,
+				56F2AFC72D38BF22007EB743 /* ScriptsSettingsViewController.swift in Sources */,
+				56F2AFC82D38BF22007EB743 /* ScriptExecution.swift in Sources */,
+				56F2AFC92D38BF22007EB743 /* Script+Require.swift in Sources */,
+				56F2AFCA2D38BF22007EB743 /* Colors.swift in Sources */,
+				56F2AFCB2D38BF22007EB743 /* UpdateBuddy.swift in Sources */,
+				56F2AFCC2D38BF22007EB743 /* PopoverViewController.swift in Sources */,
+				56F2AFCD2D38BF22007EB743 /* Script.swift in Sources */,
+				56F2AFCE2D38BF22007EB743 /* AppVersion.swift in Sources */,
+				56F2AFCF2D38BF22007EB743 /* DefaultTheme.swift in Sources */,
+				56F2AFD02D38BF22007EB743 /* ScriptManager.swift in Sources */,
+				56F2AFD12D38BF22007EB743 /* AppDelegate.swift in Sources */,
+				56F2AFD22D38BF22007EB743 /* OverlayView.swift in Sources */,
+				56F2AFD32D38BF22007EB743 /* ScriptTableViewCell.swift in Sources */,
+				56F2AFD42D38BF22007EB743 /* ScriptTableView.swift in Sources */,
+				56F2AFD52D38BF22007EB743 /* BoopLexer.swift in Sources */,
+				56F2AFD62D38BF22007EB743 /* BoopToken.swift in Sources */,
+				56F2AFD72D38BF22007EB743 /* SearchField.swift in Sources */,
+				56F2AFD82D38BF22007EB743 /* PopoverView.swift in Sources */,
+				56F2AFD92D38BF22007EB743 /* MainViewController.swift in Sources */,
+				56F2AFDA2D38BF22007EB743 /* StatusView.swift in Sources */,
+				56F2AFDB2D38BF22007EB743 /* UpdateTextField.swift in Sources */,
+				56F2AFDC2D38BF22007EB743 /* PreferencesTabViewController.swift in Sources */,
+				56F2AFDD2D38BF22007EB743 /* ThemeSettingsViewController.swift in Sources */,
+				56F2AFDE2D38BF22007EB743 /* ScriptsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,8 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GTDDevTool/GTDDevTool.entitlements;
-				CODE_SIGN_IDENTITY = "-";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -765,6 +887,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GTDDevTool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VNLookDevTool;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -772,7 +895,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tdndev.gtddevtool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnlook.devtools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -797,6 +920,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GTDDevTool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VNLookDevTool;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -804,7 +928,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1.0.0;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tdndev.gtddevtool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnlook.devtools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -837,7 +961,7 @@
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-D APPSTORE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdndev.gtddevtool;
-				PRODUCT_NAME = GTDDevTool;
+				PRODUCT_NAME = VNLookDevTool;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -870,7 +994,72 @@
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-D APPSTORE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tdndev.gtddevtool;
-				PRODUCT_NAME = GTDDevTool;
+				PRODUCT_NAME = VNLookDevTool;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		56F2AFEA2D38BF22007EB743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GTDDevTool/GTDDevTool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = NUH533L2G6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GTDDevTool/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VNLookDevTool-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VNLookDevTool;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnlook.devtools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56F2AFEB2D38BF22007EB743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GTDDevTool/GTDDevToolRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = NUH533L2G6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GTDDevTool/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VNLookDevTool-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = VNLookDevTool;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0.0;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnlook.devtools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -915,6 +1104,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		56F2AFE92D38BF22007EB743 /* Build configuration list for PBXNativeTarget "VNLookDevTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F2AFEA2D38BF22007EB743 /* Debug */,
+				56F2AFEB2D38BF22007EB743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
@@ -938,6 +1136,18 @@
 			productName = Fuse;
 		};
 		56D17B792C022DAB00003C9F /* SavannaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SavannaKit;
+		};
+		56F2AFC22D38BF22007EB743 /* SavannaKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SavannaKit;
+		};
+		56F2AFC32D38BF22007EB743 /* Fuse */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Fuse;
+		};
+		56F2AFC42D38BF22007EB743 /* SavannaKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SavannaKit;
 		};

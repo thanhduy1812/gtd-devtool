@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C20667121FD628E0082570E"
-               BuildableName = "GTDDevTool.app"
-               BlueprintName = "GTDDevTool"
+               BlueprintIdentifier = "56F2AFC12D38BF22007EB743"
+               BuildableName = "VNLookDevTool.app"
+               BlueprintName = "VNLookDevTool"
                ReferencedContainer = "container:GTDDevTool.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,19 +43,12 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C20667121FD628E0082570E"
-            BuildableName = "GTDDevTool.app"
-            BlueprintName = "GTDDevTool"
+            BlueprintIdentifier = "56F2AFC12D38BF22007EB743"
+            BuildableName = "VNLookDevTool.app"
+            BlueprintName = "VNLookDevTool"
             ReferencedContainer = "container:GTDDevTool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "IDEPreferLogStreaming"
-            value = "YES"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -67,9 +60,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C20667121FD628E0082570E"
-            BuildableName = "GTDDevTool.app"
-            BlueprintName = "GTDDevTool"
+            BlueprintIdentifier = "56F2AFC12D38BF22007EB743"
+            BuildableName = "VNLookDevTool.app"
+            BlueprintName = "VNLookDevTool"
             ReferencedContainer = "container:GTDDevTool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
