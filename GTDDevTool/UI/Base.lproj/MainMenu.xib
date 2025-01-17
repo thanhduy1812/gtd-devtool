@@ -38,7 +38,7 @@
                 <outlet property="popoverView" destination="ibo-QR-zuu" id="rFT-oJ-izo"/>
                 <outlet property="scriptManager" destination="jdF-I6-2al" id="rrD-di-AFq"/>
                 <outlet property="searchField" destination="EfF-8p-bmE" id="sIe-F8-I02"/>
-                <outlet property="statusView" destination="zMi-QK-dkF" id="K0M-6F-4Dw"/>
+                <outlet property="statusView" destination="zMi-QK-dkF" id="0Go-2u-LUR"/>
                 <outlet property="tableHeightConstraint" destination="CGh-qY-CKR" id="lWZ-ZC-6Qe"/>
                 <outlet property="tableView" destination="gde-qM-ZGx" id="bAZ-dA-gUq"/>
                 <outlet property="tableViewController" destination="vMD-En-4WA" id="vKY-bZ-GjW"/>
@@ -63,11 +63,11 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="Boop" id="1Xt-HY-uBw">
+                <menuItem title="Initium" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="Boop" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="Initium" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About Boop" id="5kV-Vb-QxS">
+                            <menuItem title="About Initium" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -92,7 +92,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide Boop" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide Initium" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -110,7 +110,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit Boop" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit Initium" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -489,13 +489,13 @@ Gw
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="Boop Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                            <menuItem title="Initium Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <connections>
                                     <action selector="openHelp:" target="unv-pE-gme" id="8ta-uT-eZh"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="Fec-Ba-9Rm"/>
-                            <menuItem title="@OKatBest on Twitter" id="N9h-rg-i4V" userLabel="@OKatBest on Twitter">
+                            <menuItem title="@VNLook on Facebook" id="N9h-rg-i4V" userLabel="@OKatBest on Twitter">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                             </menuItem>
                         </items>
@@ -504,7 +504,7 @@ Gw
             </items>
             <point key="canvasLocation" x="139" y="-200"/>
         </menu>
-        <window title="Boop" separatorStyle="shadow" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" tabbingMode="disallowed" toolbarStyle="compact" titleVisibility="hidden" id="QvC-M9-y7g">
+        <window title="InitiumDev" separatorStyle="shadow" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" tabbingMode="disallowed" toolbarStyle="compact" titleVisibility="hidden" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="500" height="360"/>
@@ -542,11 +542,11 @@ Gw
                                     </textField>
                                     <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="45" horizontalPageScroll="10" verticalLineScroll="45" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpr-jW-wRt">
                                         <rect key="frame" x="0.0" y="0.0" width="440" height="140"/>
-                                        <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="6rM-iC-zg0">
+                                        <clipView key="contentView" drawsBackground="NO" id="6rM-iC-zg0">
                                             <rect key="frame" x="0.0" y="0.0" width="440" height="140"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="43" rowSizeStyle="automatic" viewBased="YES" id="gde-qM-ZGx" customClass="ScriptTableView" customModule="GTDDevTool" customModuleProvider="target">
+                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="43" rowSizeStyle="automatic" viewBased="YES" id="gde-qM-ZGx" customClass="ScriptTableView" customModule="GTDDevTool" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="440" height="140"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
@@ -561,7 +561,7 @@ Gw
                                                             <customCell key="dataCell" alignment="left" id="A6S-rC-cY8"/>
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             <prototypeCellViews>
-                                                                <tableCellView identifier="scriptCell" misplaced="YES" id="1oI-88-xll" customClass="ScriptTableViewCell" customModule="GTDDevTool" customModuleProvider="target">
+                                                                <tableCellView identifier="scriptCell" id="1oI-88-xll" customClass="ScriptTableViewCell" customModule="GTDDevTool" customModuleProvider="target">
                                                                     <rect key="frame" x="11" y="1" width="417" height="43"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
@@ -574,7 +574,7 @@ Gw
                                                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="icons8-broom" id="0pf-Dg-gKF"/>
                                                                         </imageView>
                                                                         <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="-2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ahi-ZC-6NH">
-                                                                            <rect key="frame" x="37" y="3" width="380" height="37"/>
+                                                                            <rect key="frame" x="37" y="2" width="142" height="37"/>
                                                                             <subviews>
                                                                                 <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="llX-0P-Bnw">
                                                                                     <rect key="frame" x="-2" y="13" width="146" height="24"/>
@@ -604,12 +604,10 @@ Gw
                                                                         </stackView>
                                                                     </subviews>
                                                                     <constraints>
-                                                                        <constraint firstItem="ahi-ZC-6NH" firstAttribute="top" secondItem="1oI-88-xll" secondAttribute="top" constant="1" id="LWs-D3-oJh"/>
-                                                                        <constraint firstItem="hXY-cu-8yv" firstAttribute="top" secondItem="1oI-88-xll" secondAttribute="top" constant="6" id="LlB-v6-CtV"/>
+                                                                        <constraint firstItem="ahi-ZC-6NH" firstAttribute="centerY" secondItem="hXY-cu-8yv" secondAttribute="centerY" id="A1q-u8-ATI"/>
                                                                         <constraint firstItem="ahi-ZC-6NH" firstAttribute="leading" secondItem="hXY-cu-8yv" secondAttribute="trailing" constant="7" id="Lrk-98-STE"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="ahi-ZC-6NH" secondAttribute="trailing" id="bM0-gY-1Wg"/>
-                                                                        <constraint firstAttribute="bottom" secondItem="ahi-ZC-6NH" secondAttribute="bottom" constant="3" id="ifu-ja-93W"/>
-                                                                        <constraint firstItem="hXY-cu-8yv" firstAttribute="leading" secondItem="1oI-88-xll" secondAttribute="leading" id="lOt-qT-7gH"/>
+                                                                        <constraint firstItem="hXY-cu-8yv" firstAttribute="top" secondItem="1oI-88-xll" secondAttribute="top" constant="8" id="Yuu-3U-FCB"/>
+                                                                        <constraint firstItem="hXY-cu-8yv" firstAttribute="leading" secondItem="1oI-88-xll" secondAttribute="leading" id="vqA-tp-y7G"/>
                                                                     </constraints>
                                                                     <connections>
                                                                         <outlet property="imageView" destination="hXY-cu-8yv" id="WEV-5g-bSe"/>
@@ -681,12 +679,11 @@ Gw
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="ri3-8q-QoT"/>
                     <toolbarItem implicitItemIdentifier="C5459F48-A2E4-4A46-BA5F-7368C65F8AC9" label="Custom View" paletteLabel="Custom View" tag="-1" sizingBehavior="auto" id="mG6-GU-aNe">
                         <nil key="toolTip"/>
-                        <customView key="view" misplaced="YES" id="zMi-QK-dkF" customClass="StatusView" customModule="GTDDevTool" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="14" width="208" height="0.0"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                        <customView key="view" translatesAutoresizingMaskIntoConstraints="NO" id="zMi-QK-dkF" customClass="StatusView" customModule="GTDDevTool" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="20"/>
                             <subviews>
                                 <stackView distribution="equalCentering" orientation="horizontal" alignment="centerY" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nlt-yx-S75">
-                                    <rect key="frame" x="4" y="0.0" width="200" height="20"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="20"/>
                                     <subviews>
                                         <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aib-Zm-MbW">
                                             <rect key="frame" x="26" y="3" width="148" height="15"/>
@@ -705,10 +702,6 @@ Gw
                                             </textFieldCell>
                                         </textField>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="200" id="Dev-i3-vUc"/>
-                                        <constraint firstAttribute="height" constant="20" id="UsD-XM-AIh"/>
-                                    </constraints>
                                     <visibilityPriorities>
                                         <integer value="1000"/>
                                         <integer value="1000"/>
@@ -720,10 +713,12 @@ Gw
                                 </stackView>
                             </subviews>
                             <constraints>
-                                <constraint firstAttribute="trailing" secondItem="Nlt-yx-S75" secondAttribute="trailing" constant="4" id="1AS-iZ-Raj"/>
-                                <constraint firstItem="Nlt-yx-S75" firstAttribute="leading" secondItem="zMi-QK-dkF" secondAttribute="leading" constant="4" id="C54-Ji-PJq"/>
-                                <constraint firstAttribute="bottom" secondItem="Nlt-yx-S75" secondAttribute="bottom" id="mOX-WA-ibz"/>
-                                <constraint firstItem="Nlt-yx-S75" firstAttribute="top" secondItem="zMi-QK-dkF" secondAttribute="top" id="wDK-gM-b7p"/>
+                                <constraint firstAttribute="bottom" secondItem="Nlt-yx-S75" secondAttribute="bottom" id="5k8-1O-NAg"/>
+                                <constraint firstAttribute="trailing" secondItem="Nlt-yx-S75" secondAttribute="trailing" id="7cm-iE-VDo"/>
+                                <constraint firstItem="Nlt-yx-S75" firstAttribute="top" secondItem="zMi-QK-dkF" secondAttribute="top" id="FAk-tN-ma2"/>
+                                <constraint firstAttribute="width" constant="200" id="RXJ-GE-LKm"/>
+                                <constraint firstAttribute="height" constant="20" id="cDW-FW-YpE"/>
+                                <constraint firstItem="Nlt-yx-S75" firstAttribute="leading" secondItem="zMi-QK-dkF" secondAttribute="leading" id="dQQ-Bw-Afk"/>
                             </constraints>
                             <connections>
                                 <outlet property="textLabel" destination="aib-Zm-MbW" id="fh0-MQ-n06"/>
