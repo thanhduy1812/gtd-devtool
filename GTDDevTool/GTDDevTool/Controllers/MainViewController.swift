@@ -30,12 +30,12 @@ class MainViewController: NSViewController {
         
     }
     @IBAction func openHelp(_ sender: Any) {
-        open(url: "https://boop.okat.best/docs/")
+        open(url: "https://vnlook.com")
     }
     
     
     @IBAction func openScripts(_ sender: Any) {
-        open(url: "https://boop.okat.best/scripts/")
+        open(url: "https://vnlook.com")
     }
     
     
