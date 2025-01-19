@@ -8,7 +8,7 @@
 
 import Foundation
 import JavaScriptCore
-import Fuse
+//import Fuse
 
 class Script: NSObject {
     

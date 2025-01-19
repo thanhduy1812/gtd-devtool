@@ -7,8 +7,8 @@
 //
 
 import Cocoa
-import SavannaKit
-import Fuse
+//import SavannaKit
+//import Fuse
 
 
 class ScriptManager: NSObject {

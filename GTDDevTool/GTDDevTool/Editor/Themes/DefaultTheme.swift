@@ -7,7 +7,7 @@
 //
 
 import Cocoa
-import SavannaKit
+//import SavannaKit
 
 class DefaultTheme: SyntaxColorTheme {
 

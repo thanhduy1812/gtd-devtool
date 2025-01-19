@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="22505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,17 +13,17 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="twH-mb-iPe" customClass="UpdateBuddy" customModule="GTDDevTool" customModuleProvider="target">
+        <customObject id="twH-mb-iPe" customClass="UpdateBuddy" customModule="InitiumDevTool" customModuleProvider="target">
             <connections>
                 <outlet property="statusView" destination="zMi-QK-dkF" id="Y8d-3H-cA5"/>
             </connections>
         </customObject>
-        <customObject id="jdF-I6-2al" customClass="ScriptManager" customModule="GTDDevTool" customModuleProvider="target">
+        <customObject id="jdF-I6-2al" customClass="ScriptManager" customModule="InitiumDevTool" customModuleProvider="target">
             <connections>
                 <outlet property="statusView" destination="zMi-QK-dkF" id="6ja-w9-iQf"/>
             </connections>
         </customObject>
-        <viewController id="unv-pE-gme" customClass="MainViewController" customModule="GTDDevTool" customModuleProvider="target">
+        <viewController id="unv-pE-gme" customClass="MainViewController" customModule="InitiumDevTool" customModuleProvider="target">
             <connections>
                 <outlet property="checkUpdateMenuItem" destination="mdD-pu-Aba" id="Ffr-2n-BVJ"/>
                 <outlet property="editorView" destination="Ef0-Na-xwu" id="Qqj-qf-kUZ"/>
@@ -30,7 +31,7 @@
                 <outlet property="view" destination="Ef0-Na-xwu" id="JDN-1u-zdU"/>
             </connections>
         </viewController>
-        <viewController id="ugb-uZ-HP1" customClass="PopoverViewController" customModule="GTDDevTool" customModuleProvider="target">
+        <viewController id="ugb-uZ-HP1" customClass="PopoverViewController" customModule="InitiumDevTool" customModuleProvider="target">
             <connections>
                 <outlet property="appDelegate" destination="Voe-Tx-rLC" id="9iX-II-Hj2"/>
                 <outlet property="editorView" destination="Ef0-Na-xwu" id="C6m-b3-Qev"/>
@@ -45,12 +46,12 @@
                 <outlet property="view" destination="ibo-QR-zuu" id="zX8-ig-WV6"/>
             </connections>
         </viewController>
-        <viewController id="vMD-En-4WA" customClass="ScriptsTableViewController" customModule="GTDDevTool" customModuleProvider="target">
+        <viewController id="vMD-En-4WA" customClass="ScriptsTableViewController" customModule="InitiumDevTool" customModuleProvider="target">
             <connections>
                 <outlet property="tableView" destination="gde-qM-ZGx" id="bbd-lt-qgo"/>
             </connections>
         </viewController>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="GTDDevTool" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="InitiumDevTool" customModuleProvider="target">
             <connections>
                 <outlet property="closePickerMenuItem" destination="KYm-JI-9g0" id="aZo-Hy-RkG"/>
                 <outlet property="editor" destination="Ef0-Na-xwu" id="uYu-R2-sId"/>
@@ -514,19 +515,19 @@ Gw
                 <rect key="frame" x="0.0" y="0.0" width="500" height="360"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ef0-Na-xwu" customClass="SyntaxTextView" customModule="SavannaKit">
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ef0-Na-xwu" customClass="SyntaxTextView" customModule="InitiumDevTool" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="500" height="360"/>
                     </customView>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Cdf-EW-00p" customClass="OverlayView" customModule="GTDDevTool" customModuleProvider="target">
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Cdf-EW-00p" customClass="OverlayView" customModule="InitiumDevTool" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="500" height="360"/>
                     </customView>
-                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="ibo-QR-zuu" customClass="PopoverContainerView" customModule="GTDDevTool" customModuleProvider="target">
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="ibo-QR-zuu" customClass="PopoverContainerView" customModule="InitiumDevTool" customModuleProvider="target">
                         <rect key="frame" x="30" y="152" width="440" height="182"/>
                         <subviews>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="NDF-Rt-5B3" customClass="PopoverView" customModule="GTDDevTool" customModuleProvider="target">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="NDF-Rt-5B3" customClass="PopoverView" customModule="InitiumDevTool" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="440" height="182"/>
                                 <subviews>
-                                    <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EfF-8p-bmE" customClass="SearchField" customModule="GTDDevTool" customModuleProvider="target">
+                                    <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="EfF-8p-bmE" customClass="SearchField" customModule="InitiumDevTool" customModuleProvider="target">
                                         <rect key="frame" x="10" y="140" width="420" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="3ju-8B-ORH"/>
@@ -546,14 +547,14 @@ Gw
                                             <rect key="frame" x="0.0" y="0.0" width="440" height="140"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="43" rowSizeStyle="automatic" viewBased="YES" id="gde-qM-ZGx" customClass="ScriptTableView" customModule="GTDDevTool" customModuleProvider="target">
+                                                <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnReordering="NO" columnSelection="YES" columnResizing="NO" multipleSelection="NO" autosaveColumns="NO" rowHeight="43" rowSizeStyle="automatic" viewBased="YES" id="gde-qM-ZGx" customClass="ScriptTableView" customModule="InitiumDevTool" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="440" height="140"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                     <tableColumns>
-                                                        <tableColumn width="408" minWidth="40" maxWidth="1000" id="8yW-l0-2vh">
+                                                        <tableColumn width="379.5" minWidth="40" maxWidth="1000" id="8yW-l0-2vh">
                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -561,8 +562,8 @@ Gw
                                                             <customCell key="dataCell" alignment="left" id="A6S-rC-cY8"/>
                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                             <prototypeCellViews>
-                                                                <tableCellView identifier="scriptCell" id="1oI-88-xll" customClass="ScriptTableViewCell" customModule="GTDDevTool" customModuleProvider="target">
-                                                                    <rect key="frame" x="11" y="1" width="417" height="43"/>
+                                                                <tableCellView identifier="scriptCell" id="1oI-88-xll" customClass="ScriptTableViewCell" customModule="InitiumDevTool" customModuleProvider="target">
+                                                                    <rect key="frame" x="11" y="1" width="389" height="43"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <subviews>
                                                                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hXY-cu-8yv">
@@ -631,7 +632,7 @@ Gw
                                         </constraints>
                                         <edgeInsets key="scrollerInsets" left="0.0" right="0.0" top="0.0" bottom="10"/>
                                         <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="uf1-vI-kh9">
-                                            <rect key="frame" x="1" y="119" width="223" height="15"/>
+                                            <rect key="frame" x="0.0" y="115" width="440" height="15"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                         <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="zdi-rZ-TxO">
@@ -679,7 +680,7 @@ Gw
                     <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="ri3-8q-QoT"/>
                     <toolbarItem implicitItemIdentifier="C5459F48-A2E4-4A46-BA5F-7368C65F8AC9" label="Custom View" paletteLabel="Custom View" tag="-1" sizingBehavior="auto" id="mG6-GU-aNe">
                         <nil key="toolTip"/>
-                        <customView key="view" translatesAutoresizingMaskIntoConstraints="NO" id="zMi-QK-dkF" customClass="StatusView" customModule="GTDDevTool" customModuleProvider="target">
+                        <customView key="view" translatesAutoresizingMaskIntoConstraints="NO" id="zMi-QK-dkF" customClass="StatusView" customModule="InitiumDevTool" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="200" height="20"/>
                             <subviews>
                                 <stackView distribution="equalCentering" orientation="horizontal" alignment="centerY" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nlt-yx-S75">
@@ -693,7 +694,7 @@ Gw
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField hidden="YES" focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="PpN-Z0-jAa" customClass="UpdateTextField" customModule="GTDDevTool" customModuleProvider="target">
+                                        <textField hidden="YES" focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="PpN-Z0-jAa" customClass="UpdateTextField" customModule="InitiumDevTool" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="6" width="69" height="14"/>
                                             <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Learn More" drawsBackground="YES" id="o6X-4x-gie">
                                                 <font key="font" metaFont="systemMedium" size="11"/>

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,28 @@
 		2C17C67B2427218B005C911C /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C20669921FD76900082570E /* StatusView.swift */; };
 		2C17C67C242721C5005C911C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9118B523406B530018916F /* Colors.swift */; };
 		2C60A56224871730006496BA /* UpdateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60A4E524870678006496BA /* UpdateTextField.swift */; };
+		562D325D2D3C8CEB002F382E /* SyntaxTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32482D3C8CEB002F382E /* SyntaxTextStorage.swift */; };
+		562D325E2D3C8CEB002F382E /* String+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32492D3C8CEB002F382E /* String+Range.swift */; };
+		562D325F2D3C8CEB002F382E /* NSTextView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D324A2D3C8CEB002F382E /* NSTextView+UIKit.swift */; };
+		562D32602D3C8CEB002F382E /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D324B2D3C8CEB002F382E /* Types.swift */; };
+		562D32612D3C8CEB002F382E /* NSMutableAttributedString+Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D324C2D3C8CEB002F382E /* NSMutableAttributedString+Tokens.swift */; };
+		562D32622D3C8CEB002F382E /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D324E2D3C8CEB002F382E /* Lexer.swift */; };
+		562D32632D3C8CEB002F382E /* Paragraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D324F2D3C8CEB002F382E /* Paragraph.swift */; };
+		562D32642D3C8CEB002F382E /* SyntaxColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32502D3C8CEB002F382E /* SyntaxColorTheme.swift */; };
+		562D32652D3C8CEB002F382E /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32512D3C8CEB002F382E /* Token.swift */; };
+		562D32662D3C8CEB002F382E /* RegexLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32522D3C8CEB002F382E /* RegexLexer.swift */; };
+		562D32672D3C8CEB002F382E /* InnerTextView+MultilineEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32542D3C8CEB002F382E /* InnerTextView+MultilineEditing.swift */; };
+		562D32682D3C8CEB002F382E /* SyntaxTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32552D3C8CEB002F382E /* SyntaxTextView.swift */; };
+		562D32692D3C8CEB002F382E /* SyntaxTextView+TextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32562D3C8CEB002F382E /* SyntaxTextView+TextViewDelegate.swift */; };
+		562D326A2D3C8CEB002F382E /* InnerTexView+MultilineActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32572D3C8CEB002F382E /* InnerTexView+MultilineActions.swift */; };
+		562D326B2D3C8CEB002F382E /* InnerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32582D3C8CEB002F382E /* InnerTextView.swift */; };
+		562D326C2D3C8CEB002F382E /* LineRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32592D3C8CEB002F382E /* LineRulerView.swift */; };
+		562D326D2D3C8CEB002F382E /* SyntaxTextViewLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D325A2D3C8CEB002F382E /* SyntaxTextViewLayoutManager.swift */; };
+		562D326E2D3C8CEB002F382E /* Paragraphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D325B2D3C8CEB002F382E /* Paragraphs.swift */; };
+		562D326F2D3C8CEB002F382E /* InnerTextView+MultilineKeyBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D325C2D3C8CEB002F382E /* InnerTextView+MultilineKeyBinding.swift */; };
+		562D32782D3C8D08002F382E /* FuseUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32722D3C8D08002F382E /* FuseUtilities.swift */; };
+		562D32792D3C8D08002F382E /* Fuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32732D3C8D08002F382E /* Fuse.swift */; };
+		562D327B2D3C8D08002F382E /* String+Fuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D32752D3C8D08002F382E /* String+Fuse.swift */; };
 		56F2AFC62D38BF22007EB743 /* PopoverContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C873BE02697C2A800D9A3F0 /* PopoverContainerView.swift */; };
 		56F2AFC72D38BF22007EB743 /* ScriptsSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC211C4236FB5C1007CECEE /* ScriptsSettingsViewController.swift */; };
 		56F2AFC82D38BF22007EB743 /* ScriptExecution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53B6DF226D404E00DC6861 /* ScriptExecution.swift */; };
@@ -41,9 +63,6 @@
 		56F2AFDC2D38BF22007EB743 /* PreferencesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC211C2236E3141007CECEE /* PreferencesTabViewController.swift */; };
 		56F2AFDD2D38BF22007EB743 /* ThemeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEC93F9249C2D600080B9B8 /* ThemeSettingsViewController.swift */; };
 		56F2AFDE2D38BF22007EB743 /* ScriptsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9761D82214E3B500AFF8CD /* ScriptsTableViewController.swift */; };
-		56F2AFE02D38BF22007EB743 /* SavannaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 56F2AFC22D38BF22007EB743 /* SavannaKit */; };
-		56F2AFE12D38BF22007EB743 /* Fuse in Frameworks */ = {isa = PBXBuildFile; productRef = 56F2AFC32D38BF22007EB743 /* Fuse */; };
-		56F2AFE22D38BF22007EB743 /* SavannaKit in Frameworks */ = {isa = PBXBuildFile; productRef = 56F2AFC42D38BF22007EB743 /* SavannaKit */; };
 		56F2AFE42D38BF22007EB743 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 2C9761D42214E11600AFF8CD /* scripts */; };
 		56F2AFE52D38BF22007EB743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C20667721FD62910082570E /* Assets.xcassets */; };
 		56F2AFE62D38BF22007EB743 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C20667921FD62910082570E /* MainMenu.xib */; };
@@ -100,6 +119,30 @@
 		2CC211C2236E3141007CECEE /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
 		2CC211C4236FB5C1007CECEE /* ScriptsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsSettingsViewController.swift; sourceTree = "<group>"; };
 		2CEC93F9249C2D600080B9B8 /* ThemeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsViewController.swift; sourceTree = "<group>"; };
+		562D32482D3C8CEB002F382E /* SyntaxTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxTextStorage.swift; sourceTree = "<group>"; };
+		562D32492D3C8CEB002F382E /* String+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Range.swift"; sourceTree = "<group>"; };
+		562D324A2D3C8CEB002F382E /* NSTextView+UIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextView+UIKit.swift"; sourceTree = "<group>"; };
+		562D324B2D3C8CEB002F382E /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		562D324C2D3C8CEB002F382E /* NSMutableAttributedString+Tokens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Tokens.swift"; sourceTree = "<group>"; };
+		562D324E2D3C8CEB002F382E /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		562D324F2D3C8CEB002F382E /* Paragraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paragraph.swift; sourceTree = "<group>"; };
+		562D32502D3C8CEB002F382E /* SyntaxColorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxColorTheme.swift; sourceTree = "<group>"; };
+		562D32512D3C8CEB002F382E /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		562D32522D3C8CEB002F382E /* RegexLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegexLexer.swift; sourceTree = "<group>"; };
+		562D32542D3C8CEB002F382E /* InnerTextView+MultilineEditing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InnerTextView+MultilineEditing.swift"; sourceTree = "<group>"; };
+		562D32552D3C8CEB002F382E /* SyntaxTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxTextView.swift; sourceTree = "<group>"; };
+		562D32562D3C8CEB002F382E /* SyntaxTextView+TextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SyntaxTextView+TextViewDelegate.swift"; sourceTree = "<group>"; };
+		562D32572D3C8CEB002F382E /* InnerTexView+MultilineActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InnerTexView+MultilineActions.swift"; sourceTree = "<group>"; };
+		562D32582D3C8CEB002F382E /* InnerTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerTextView.swift; sourceTree = "<group>"; };
+		562D32592D3C8CEB002F382E /* LineRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineRulerView.swift; sourceTree = "<group>"; };
+		562D325A2D3C8CEB002F382E /* SyntaxTextViewLayoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxTextViewLayoutManager.swift; sourceTree = "<group>"; };
+		562D325B2D3C8CEB002F382E /* Paragraphs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paragraphs.swift; sourceTree = "<group>"; };
+		562D325C2D3C8CEB002F382E /* InnerTextView+MultilineKeyBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "InnerTextView+MultilineKeyBinding.swift"; sourceTree = "<group>"; };
+		562D32722D3C8D08002F382E /* FuseUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FuseUtilities.swift; sourceTree = "<group>"; };
+		562D32732D3C8D08002F382E /* Fuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fuse.swift; sourceTree = "<group>"; };
+		562D32742D3C8D08002F382E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		562D32752D3C8D08002F382E /* String+Fuse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Fuse.swift"; sourceTree = "<group>"; };
+		562D32772D3C8D08002F382E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		56F2AFEC2D38BF22007EB743 /* InitiumDevTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InitiumDevTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F2AFED2D38BF23007EB743 /* VNLookDevTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "VNLookDevTool-Info.plist"; path = "/Users/duynt/Gotadi/IOS/gtd-devtool/GTDDevTool/VNLookDevTool-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
@@ -116,9 +159,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F2AFE02D38BF22007EB743 /* SavannaKit in Frameworks */,
-				56F2AFE12D38BF22007EB743 /* Fuse in Frameworks */,
-				56F2AFE22D38BF22007EB743 /* SavannaKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,8 +199,11 @@
 		2C20667421FD628E0082570E /* GTDDevTool */ = {
 			isa = PBXGroup;
 			children = (
+				2C20667D21FD62910082570E /* GTDDevTool.entitlements */,
 				2C5770D4249727A600B38470 /* GTDDevToolRelease.entitlements */,
 				2C9761DA2214E44300AFF8CD /* System */,
+				562D32462D3C8CEB002F382E /* SavannaKit */,
+				562D32702D3C8D08002F382E /* Fuse */,
 				2C9761D42214E11600AFF8CD /* scripts */,
 				2C20669821FD767E0082570E /* Views */,
 				2C20668D21FD64330082570E /* Editor */,
@@ -168,7 +211,6 @@
 				2C20667521FD628E0082570E /* AppDelegate.swift */,
 				2C20667721FD62910082570E /* Assets.xcassets */,
 				2C20667C21FD62910082570E /* Info.plist */,
-				2C20667D21FD62910082570E /* GTDDevTool.entitlements */,
 			);
 			path = GTDDevTool;
 			sourceTree = "<group>";
@@ -265,6 +307,84 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		562D32462D3C8CEB002F382E /* SavannaKit */ = {
+			isa = PBXGroup;
+			children = (
+				562D32472D3C8CEB002F382E /* Util */,
+				562D324D2D3C8CEB002F382E /* Model */,
+				562D32532D3C8CEB002F382E /* View */,
+			);
+			path = SavannaKit;
+			sourceTree = "<group>";
+		};
+		562D32472D3C8CEB002F382E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				562D32482D3C8CEB002F382E /* SyntaxTextStorage.swift */,
+				562D32492D3C8CEB002F382E /* String+Range.swift */,
+				562D324A2D3C8CEB002F382E /* NSTextView+UIKit.swift */,
+				562D324B2D3C8CEB002F382E /* Types.swift */,
+				562D324C2D3C8CEB002F382E /* NSMutableAttributedString+Tokens.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		562D324D2D3C8CEB002F382E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				562D324E2D3C8CEB002F382E /* Lexer.swift */,
+				562D324F2D3C8CEB002F382E /* Paragraph.swift */,
+				562D32502D3C8CEB002F382E /* SyntaxColorTheme.swift */,
+				562D32512D3C8CEB002F382E /* Token.swift */,
+				562D32522D3C8CEB002F382E /* RegexLexer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		562D32532D3C8CEB002F382E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				562D32542D3C8CEB002F382E /* InnerTextView+MultilineEditing.swift */,
+				562D32552D3C8CEB002F382E /* SyntaxTextView.swift */,
+				562D32562D3C8CEB002F382E /* SyntaxTextView+TextViewDelegate.swift */,
+				562D32572D3C8CEB002F382E /* InnerTexView+MultilineActions.swift */,
+				562D32582D3C8CEB002F382E /* InnerTextView.swift */,
+				562D32592D3C8CEB002F382E /* LineRulerView.swift */,
+				562D325A2D3C8CEB002F382E /* SyntaxTextViewLayoutManager.swift */,
+				562D325B2D3C8CEB002F382E /* Paragraphs.swift */,
+				562D325C2D3C8CEB002F382E /* InnerTextView+MultilineKeyBinding.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		562D32702D3C8D08002F382E /* Fuse */ = {
+			isa = PBXGroup;
+			children = (
+				562D32712D3C8D08002F382E /* Classes */,
+				562D32762D3C8D08002F382E /* Assets */,
+			);
+			path = Fuse;
+			sourceTree = "<group>";
+		};
+		562D32712D3C8D08002F382E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				562D32722D3C8D08002F382E /* FuseUtilities.swift */,
+				562D32732D3C8D08002F382E /* Fuse.swift */,
+				562D32742D3C8D08002F382E /* .gitkeep */,
+				562D32752D3C8D08002F382E /* String+Fuse.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		562D32762D3C8D08002F382E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				562D32772D3C8D08002F382E /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,9 +420,6 @@
 			);
 			name = VNLookDevTool;
 			packageProductDependencies = (
-				56F2AFC22D38BF22007EB743 /* SavannaKit */,
-				56F2AFC32D38BF22007EB743 /* Fuse */,
-				56F2AFC42D38BF22007EB743 /* SavannaKit */,
 			);
 			productName = Boop;
 			productReference = 56F2AFEC2D38BF22007EB743 /* InitiumDevTool.app */;
@@ -315,9 +432,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				CLASSPREFIX = VNL;
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1510;
-				ORGANIZATIONNAME = TDNDev;
+				ORGANIZATIONNAME = VNLook;
 				TargetAttributes = {
 					2C17C66624271DDA005C911C = {
 						CreatedOnToolsVersion = 11.0;
@@ -335,8 +453,6 @@
 			);
 			mainGroup = 2C20666921FD628E0082570E;
 			packageReferences = (
-				56D17B712C0220A700003C9F /* XCLocalSwiftPackageReference "../fuse-swift-2.0.0" */,
-				56D17B782C022DAB00003C9F /* XCLocalSwiftPackageReference "../savannakit-feat-multilineEditing" */,
 			);
 			productRefGroup = 2C20667321FD628E0082570E /* Products */;
 			projectDirPath = "";
@@ -390,28 +506,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562D32632D3C8CEB002F382E /* Paragraph.swift in Sources */,
+				562D326C2D3C8CEB002F382E /* LineRulerView.swift in Sources */,
 				56F2AFC62D38BF22007EB743 /* PopoverContainerView.swift in Sources */,
 				56F2AFC72D38BF22007EB743 /* ScriptsSettingsViewController.swift in Sources */,
 				56F2AFC82D38BF22007EB743 /* ScriptExecution.swift in Sources */,
+				562D325D2D3C8CEB002F382E /* SyntaxTextStorage.swift in Sources */,
+				562D32662D3C8CEB002F382E /* RegexLexer.swift in Sources */,
+				562D32682D3C8CEB002F382E /* SyntaxTextView.swift in Sources */,
+				562D327B2D3C8D08002F382E /* String+Fuse.swift in Sources */,
 				56F2AFC92D38BF22007EB743 /* Script+Require.swift in Sources */,
+				562D326A2D3C8CEB002F382E /* InnerTexView+MultilineActions.swift in Sources */,
 				56F2AFCA2D38BF22007EB743 /* Colors.swift in Sources */,
 				56F2AFCB2D38BF22007EB743 /* UpdateBuddy.swift in Sources */,
+				562D32672D3C8CEB002F382E /* InnerTextView+MultilineEditing.swift in Sources */,
 				56F2AFCC2D38BF22007EB743 /* PopoverViewController.swift in Sources */,
+				562D32612D3C8CEB002F382E /* NSMutableAttributedString+Tokens.swift in Sources */,
 				56F2AFCD2D38BF22007EB743 /* Script.swift in Sources */,
+				562D32642D3C8CEB002F382E /* SyntaxColorTheme.swift in Sources */,
 				56F2AFCE2D38BF22007EB743 /* AppVersion.swift in Sources */,
+				562D325E2D3C8CEB002F382E /* String+Range.swift in Sources */,
+				562D326B2D3C8CEB002F382E /* InnerTextView.swift in Sources */,
+				562D326D2D3C8CEB002F382E /* SyntaxTextViewLayoutManager.swift in Sources */,
 				56F2AFCF2D38BF22007EB743 /* DefaultTheme.swift in Sources */,
+				562D32782D3C8D08002F382E /* FuseUtilities.swift in Sources */,
+				562D32652D3C8CEB002F382E /* Token.swift in Sources */,
+				562D32792D3C8D08002F382E /* Fuse.swift in Sources */,
 				56F2AFD02D38BF22007EB743 /* ScriptManager.swift in Sources */,
 				56F2AFD12D38BF22007EB743 /* AppDelegate.swift in Sources */,
 				56F2AFD22D38BF22007EB743 /* OverlayView.swift in Sources */,
 				56F2AFD32D38BF22007EB743 /* ScriptTableViewCell.swift in Sources */,
 				56F2AFD42D38BF22007EB743 /* ScriptTableView.swift in Sources */,
 				56F2AFD52D38BF22007EB743 /* BoopLexer.swift in Sources */,
+				562D326E2D3C8CEB002F382E /* Paragraphs.swift in Sources */,
 				56F2AFD62D38BF22007EB743 /* BoopToken.swift in Sources */,
+				562D325F2D3C8CEB002F382E /* NSTextView+UIKit.swift in Sources */,
 				56F2AFD72D38BF22007EB743 /* SearchField.swift in Sources */,
+				562D32602D3C8CEB002F382E /* Types.swift in Sources */,
+				562D32692D3C8CEB002F382E /* SyntaxTextView+TextViewDelegate.swift in Sources */,
 				56F2AFD82D38BF22007EB743 /* PopoverView.swift in Sources */,
 				56F2AFD92D38BF22007EB743 /* MainViewController.swift in Sources */,
 				56F2AFDA2D38BF22007EB743 /* StatusView.swift in Sources */,
 				56F2AFDB2D38BF22007EB743 /* UpdateTextField.swift in Sources */,
+				562D32622D3C8CEB002F382E /* Lexer.swift in Sources */,
+				562D326F2D3C8CEB002F382E /* InnerTextView+MultilineKeyBinding.swift in Sources */,
 				56F2AFDC2D38BF22007EB743 /* PreferencesTabViewController.swift in Sources */,
 				56F2AFDD2D38BF22007EB743 /* ThemeSettingsViewController.swift in Sources */,
 				56F2AFDE2D38BF22007EB743 /* ScriptsTableViewController.swift in Sources */,
@@ -611,7 +749,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = NUH533L2G6;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -621,6 +759,7 @@
 				);
 				INFOPLIST_FILE = "VNLookDevTool-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = InitiumDevTool;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -643,7 +782,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = NUH533L2G6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -654,6 +793,7 @@
 				);
 				INFOPLIST_FILE = "VNLookDevTool-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = InitiumDevTool;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -699,32 +839,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		56D17B712C0220A700003C9F /* XCLocalSwiftPackageReference "../fuse-swift-2.0.0" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../fuse-swift-2.0.0";
-		};
-		56D17B782C022DAB00003C9F /* XCLocalSwiftPackageReference "../savannakit-feat-multilineEditing" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../savannakit-feat-multilineEditing";
-		};
-/* End XCLocalSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		56F2AFC22D38BF22007EB743 /* SavannaKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SavannaKit;
-		};
-		56F2AFC32D38BF22007EB743 /* Fuse */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Fuse;
-		};
-		56F2AFC42D38BF22007EB743 /* SavannaKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = SavannaKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C20666A21FD628E0082570E /* Project object */;
 }
